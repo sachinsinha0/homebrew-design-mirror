@@ -9,6 +9,11 @@ cask "design-mirror" do
 
   app "Design Mirror.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Design Mirror.app"]
+  end
+
   uninstall quit: "com.designmirror.app"
 
   zap trash: [
