@@ -1,6 +1,6 @@
 cask "design-mirror" do
-  version "1.3.7"
-  sha256 "8cc34cd2d7e6710597d8726f296de6567864c00bcdc3c972533028807c9f949c"
+  version "1.3.8"
+  sha256 "f6ee83530b6f6b00b009dcad934e3a4de5507f3681c195212beab78b058343b2"
 
   url "https://github.com/sachinsinha0/design-mirror-releases/releases/download/v#{version}/Design.Mirror.dmg"
   name "Design Mirror"
